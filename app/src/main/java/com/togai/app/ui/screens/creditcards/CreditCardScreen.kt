@@ -126,11 +126,11 @@ fun CreditCardScreen(
                             horizontalArrangement = Arrangement.SpaceBetween
                         ) {
                             Text(
-                                text = formatCurrency(totalSpent),
+                                text = totalSpent.formatCurrency(),
                                 style = MaterialTheme.typography.bodySmall
                             )
                             Text(
-                                text = "${overallUtil.toInt()}% of ${formatCurrency(totalLimit)}",
+                                text = "${overallUtil.toInt()}% of ${totalLimit.formatCurrency()}",
                                 style = MaterialTheme.typography.bodySmall
                             )
                         }
@@ -237,7 +237,7 @@ private fun AmountColumn(
             color = MaterialTheme.colorScheme.onSurfaceVariant
         )
         Text(
-            text = formatCurrency(amount),
+            text = amount.formatCurrency(),
             style = MaterialTheme.typography.bodyMedium,
             fontWeight = FontWeight.Medium
         )

@@ -1,4 +1,3 @@
-\
 package com.togai.app.domain.model
 
 data class Account(

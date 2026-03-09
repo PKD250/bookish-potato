@@ -1,4 +1,3 @@
-\
 package com.togai.app.data.repository
 
 import com.togai.app.data.local.dao.AccountDao

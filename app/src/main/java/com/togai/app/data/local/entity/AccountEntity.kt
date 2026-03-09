@@ -1,4 +1,3 @@
-\
 package com.togai.app.data.local.entity
 
 import androidx.room.ColumnInfo

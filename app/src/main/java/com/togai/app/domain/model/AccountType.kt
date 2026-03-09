@@ -1,4 +1,3 @@
-\
 package com.togai.app.domain.model
 
 enum class AccountType {

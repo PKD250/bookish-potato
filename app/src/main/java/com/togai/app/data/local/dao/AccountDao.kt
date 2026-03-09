@@ -1,4 +1,3 @@
-\
 package com.togai.app.data.local.dao
 
 import androidx.room.Dao
